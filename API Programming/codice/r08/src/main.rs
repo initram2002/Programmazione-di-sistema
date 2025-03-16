@@ -10,6 +10,14 @@ impl Point { // definizione implementazione point
     }
 }
 
+// implementazione del tratto clone: posso personalizzarlo come più mi piace
+impl Clone for Point {
+    fn clone(&self) -> Point {
+        println!("Cloning Point ({}, {})", self.x, self.y);
+        Point::new(self.x, self.y) // creazione nuovo punto
+    }
+}
+
 impl Drop for Point { // impegno a dare un corpo alla funzione
     fn drop(&mut self) {
         println!("Dropping Point ({}, {})", self.x, self.y); // butto via un punto
@@ -26,9 +34,11 @@ fn main() {
         let p2 = p1; // lo stack cresce, ho bisogno di una nuova variabile locale dove metto il contenuto di p1
         p1 = Point::new(3, 4);
         // MOVIMENTO:
-        test(p2); // p2 ha temporanamente preso il possesso di (1, 2) e ne invoco sopra la funzione test => cedo il contenuto a test
+        //test(p2); // p2 ha temporanamente preso il possesso di (1, 2) e ne invoco sopra la funzione test => cedo il contenuto a test
         // quando finisce test, ciò che ha ricevuto lo distrugge (lo droppa PRIMA della fine dello scope interno, a differenza di prima dove non avevo la funzione test)
         // la funzione test si occupa dello smaltimento
+        // Chiedo una copia con clone
+        test(p2.clone());
         println!("Fine dello scope interno"); // stampa
     } // p2 esce di scena, perché esiste solo nello scope interno, devo rilasciare p2 (stampa "Dropping ...")
     println!("Fine dello scope esterno")
@@ -65,6 +75,19 @@ fn main() {
  * Inside test function: (1, 2)
  * Dropping Point (1, 2)
  * Fine dello scope interno
+ * Fine dello scope esterno
+ * Dropping Point (3, 4)
+*/
+
+/*
+ * Creating a new Point (1, 2)
+ * Creating a new Point (3, 4)
+ * Cloning Point (1, 2)
+ * Creating a new Point (1, 2)
+ * Inside test function: (1, 2)
+ * Dropping Point (1, 2)
+ * Fine dello scope interno
+ * Dropping Point (1, 2)
  * Fine dello scope esterno
  * Dropping Point (3, 4)
 */
