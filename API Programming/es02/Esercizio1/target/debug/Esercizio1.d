@@ -1,0 +1,1 @@
+C:\Users\marti\Documents\Scuola\AA\ 2024-2025\Programmazione\ di\ sistema\API\ Programming\es02\Esercizio1\target\debug\Esercizio1.exe: C:\Users\marti\Documents\Scuola\AA\ 2024-2025\Programmazione\ di\ sistema\API\ Programming\es02\Esercizio1\src\main.rs
