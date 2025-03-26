@@ -1,0 +1,10 @@
+C:\Users\marti\Documents\Scuola\AA 2024-2025\Programmazione di sistema\API Programming\es02\Esercizio2\target\debug\deps\libanstyle_wincon-e47e424b291e4d2a.rmeta: C:\Users\marti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-wincon-3.0.7\src\lib.rs C:\Users\marti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-wincon-3.0.7\src\ansi.rs C:\Users\marti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-wincon-3.0.7\src\stream.rs C:\Users\marti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-wincon-3.0.7\src\windows.rs
+
+C:\Users\marti\Documents\Scuola\AA 2024-2025\Programmazione di sistema\API Programming\es02\Esercizio2\target\debug\deps\libanstyle_wincon-e47e424b291e4d2a.rlib: C:\Users\marti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-wincon-3.0.7\src\lib.rs C:\Users\marti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-wincon-3.0.7\src\ansi.rs C:\Users\marti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-wincon-3.0.7\src\stream.rs C:\Users\marti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-wincon-3.0.7\src\windows.rs
+
+C:\Users\marti\Documents\Scuola\AA 2024-2025\Programmazione di sistema\API Programming\es02\Esercizio2\target\debug\deps\anstyle_wincon-e47e424b291e4d2a.d: C:\Users\marti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-wincon-3.0.7\src\lib.rs C:\Users\marti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-wincon-3.0.7\src\ansi.rs C:\Users\marti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-wincon-3.0.7\src\stream.rs C:\Users\marti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-wincon-3.0.7\src\windows.rs
+
+C:\Users\marti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-wincon-3.0.7\src\lib.rs:
+C:\Users\marti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-wincon-3.0.7\src\ansi.rs:
+C:\Users\marti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-wincon-3.0.7\src\stream.rs:
+C:\Users\marti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-wincon-3.0.7\src\windows.rs:
